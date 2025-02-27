@@ -1,0 +1,91 @@
+img {
+    height: 150px;
+}
+
+#contenedor-imagenes {
+    border: 5px solid red;
+    position: relative; /* Necesario para que funcione bien el posicionamiento absoluto de los elementos que contiene */
+}
+#husky-imagen {
+    
+    height: 150px;
+    position: absolute; 
+    top: 5px; 
+    right: 7px; 
+}
+#husky {
+    position: absolute;
+    top: 5px; 
+    right: 320px; 
+    z-index: 100;
+    color:white;
+    font-size: 40px;
+}
+
+
+
+#golden1-imagen {
+    position: relative; 
+    height: 150px;
+    color: lightgray;
+    position: absolute;
+    top: -8px;
+    left: 7px;
+}
+
+#golden2-imagen {
+    position: relative;
+   
+    height: 150px;
+    color: aliceblue;
+
+    top: 58px;
+    right:40px;
+}
+
+#golden {
+    position: relative;
+    color: black;
+    font-size: 31px;
+    font-weight: bold;
+    top: 96px;
+    left: 400px;
+    z-index: 100;
+}
+
+#carlino {
+    position: relative;
+    color: black;
+    font-size: 31px;
+    font-weight: bold;
+    top: 135;
+    left: 615px;
+    z-index: 100;
+}
+
+#carlino-imagen {
+    position: relative;
+   
+    height: 150px;
+    top: 1px;
+    left: 755px;
+}
+
+#podenco {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    top: 73px;
+    left: 700px;
+    z-index: 100;
+}
+
+#podenco-imagen {
+    position: absolute;
+    
+    height: 150px;
+    top: 100px;
+    left: 700px;
+
+}
